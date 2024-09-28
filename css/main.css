@@ -35,5 +35,9 @@ nav li {
   height: 100%;
   border-radius: 50px;
 }
-
+.video-container {
+            width: 80%; /* Ajusta el ancho al 80% del contenedor */
+            height: auto; /* Mantiene la proporción del video */
+            margin: 0 auto; /* Centra el video horizontalmente */
+        }
 /* Estilos para otras secciones */
