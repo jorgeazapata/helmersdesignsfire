@@ -1,7 +1,12 @@
-  <link rel="stylesheet" href="css/main.css">
-    <title>HELMER DESIGNS</title>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Ropa en Carrusel</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body>   
     <header>
         <center>
             <h1>HELMER´s DESIGNS FIRES</h1>
@@ -17,16 +22,27 @@
         <!-- Logo y menú de navegación -->
     </header>
     <section class="hero">
-        <h1>PRODUCTOS</h1>
-        
-        <!-- Contenido principal -->
-    </section>
-    <section class="logos">
-        <!-- Logos de marcas con las que has trabajado -->
-    </section>
-    <!-- Otras secciones: servicios, características, formulario de contacto, etc. -->
-    <footer>
-        <!-- Pie de página -->
-    </footer>
+        <h1 align="center">PRODUCTOS</h1>
+    <div class="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imgs/imagen1.jpg" alt="Ropa 1">
+                <div class="description">Ropa 1</div>
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/imagen2.jpg" alt="Ropa 2">
+                <div class="description">Ropa 2</div>
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/imagen3.jpg" alt="Ropa 3">
+                <div class="description">Ropa 3</div>
+            </div>
+            <!-- Añade más elementos de carrusel según sea necesario -->
+        </div>
+        <button class="carousel-control prev" onclick="prevSlide()">❮</button>
+        <button class="carousel-control next" onclick="nextSlide()">❯</button>
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
